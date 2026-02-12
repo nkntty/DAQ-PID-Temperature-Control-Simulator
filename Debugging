@@ -1,0 +1,4 @@
+throw runtime_error("Could not open " + filename_);
+try{}catch(const exception& e){}
+clamp(object, min, max)
+ofstream out(filename, ios::app/trunc)
