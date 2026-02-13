@@ -4,6 +4,22 @@ A simple simulation of a thermal system controlled using a PID controller.
 Demonstrates feedback control, data acquisition concepts, and numerical simulation.
 
 
+Quickstart
+
+g++ PIDcontroller.cpp -o pid_sim -std=c++17
+
+./pid_sim
+
+python3 plot_results.py
+
+Output
+Explain what columns mean:
+time (step or seconds)
+temp
+setpoint
+control (heater power 0–1)
+
+
 1. 制御システムの重要性 (Control Systems Relevance)
 制御システムは、入力された目標値に対して出力値を望ましい状態に調整・維持するための仕組みです。現代社会において不可欠な技術であり、以下の理由から極めて重要です。 
 自動化と効率化: 人間の介在を減らし、24時間体制での精密な動作や高速な処理を実現します（例：工場のロボットアーム、洗濯機の自動サイクル）。
@@ -25,17 +41,6 @@ C++は、ハードウェアに近い低レイヤの制御と、複雑なソフ�
 MATLAB/Simulink などのツールで設計した制御モデルを、最終的に高速な C++コード として出力して実機に実装する流れが一般的です。
 
 
-Code-run
-On terminal
 
--------------------------------------------
-g++ PIDcontroller.cpp -o pid_sim -std=c++17
--------------------------------------------
-
-Run simulation
-
--------------------------------------------
-./pid_sim
--------------------------------------------
 
 
