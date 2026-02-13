@@ -42,5 +42,23 @@ MATLAB/Simulink などのツールで設計した制御モデルを、最終的�
 
 
 
+The temperature dynamics are approximated by:
+
+dT/dt = -k(T - T_ambient) + heater_gain * u
+
+Where:
+
+T = system temperature
+
+T_ambient = ambient temperature
+
+u = heater power (0–1)
+
+k = cooling coefficient
+
+This simplified model captures heat loss and actuator response without full thermodynamic complexity.
+
+
+
 
 
