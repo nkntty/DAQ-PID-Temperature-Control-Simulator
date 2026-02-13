@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Build outputs
+*.exe
+*.out
+
+# Temporary CSV (optional)
+data.csv
